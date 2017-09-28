@@ -1,0 +1,3 @@
+On FreeBSD 10.3, Ice-3.6.4 for Python reproducibly fails (I believe) when parsing a subclass instance.
+
+> Fatal Python error: Types.cpp:3306 object at 0x806784610 has negative ref count -2604246222170760229
